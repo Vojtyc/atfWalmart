@@ -1,0 +1,7 @@
+firstname,lastname,email,password,error
+Ivo,Bobul,ivobob1@outlook.com,12345,Your password must contain between 6 and 12 characters"," with no spaces. Please try again.
+Ivo,Bobul,ivobob1@outlook.com,1234567890123,Your password must contain between 6 and 12 characters"," with no spaces. Please try again.
+,Bobul,ivobob1@outlook.com,Qwerty-123,This information is required.
+Ivo,,ivobob1@outlook.com,Qwerty-123,This information is required.
+,,ivobob1@outlook.com,Qwerty-123,This information is required.
+,,,Qwerty-123,This information is required.
