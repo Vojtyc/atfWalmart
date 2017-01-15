@@ -21,10 +21,7 @@ public class SignInTest extends BaseTest {
 		}	
 		if (testData.get("email") == null){
 			assertThat("Page Error message should be as expected", targetPage.getEmailErrorMessage(), is(equalTo(testData.get("error"))));
-		}	/*else if (testData.get("password") == null && testData.get("password") == null){
-			assertThat("Page Error message should be as expected", targetPage.getEmailErrorMessage(), is(equalTo(testData.get("error")))); 
-			assertThat("Page Error message should be as expected", targetPage.getPasswordErrorMessage(), is(equalTo(testData.get("error"))));
-		}	*/
+		}	
 			try {Thread.sleep(2000);			
 		} catch (Exception e) {
 			}

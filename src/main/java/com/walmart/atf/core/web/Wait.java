@@ -4,7 +4,7 @@ import org.openqa.selenium.TimeoutException;
 
 public class Wait<T extends Component<T>> {
 	
-	private static final int DEFAULT_TIMEOUT = 30000;
+	private static final int DEFAULT_TIMEOUT = 10000;
 	private static final int DEFAULT_RETRY_DELAY = 500;
 	private T component;
 	
